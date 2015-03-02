@@ -9,4 +9,6 @@ Two lists of ferry boats are provided, retired and current vessels. The data is 
 - Passenger Capacity
 - General notes about the ship
 
-Additionally, a photo of the ship is provided when available as a direct link to a third party host.
+Additionally, a photo of the ship is provided when available as a direct link to a third party host. 
+
+The data is from [Wikipedia] (http://en.wikipedia.org/wiki/Washington_State_Ferries) with slight editing for brevity. 
