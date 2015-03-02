@@ -1,5 +1,5 @@
 # ps-ferries
-Example web service providing list of current and retired ferry boats in the Puget Sound, Washington state
+Example web service providing list of current and retired ferry boats operating in the Puget Sound.
 
 Two lists of ferry boats are provided, retired and current vessels. The data is contained in csv and json formats in this repo and served up by a simple php file (api.php) by the single HTML file (index.hmtl). For both the current and retired data, the following fields are available for each ferry vessel:
 
