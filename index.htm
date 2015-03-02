@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Puget Sound Ferries</title>
+<style>
+body {font-family:georgia;}
+#vessels {
+	max-width:95%;
+	margin:10px;
+	padding:10px;
+}
+#vessels > div {
+	padding:10px;
+	min-height:100px;
+	margin-bottom:5px;
+	border:2px solid #194719;
+	-moz-border-radius: 2px; 
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	position:relative; /* required to place #pic to right */
+}
+#vessels h3 {
+	font-family:georgia;
+	padding:5px;
+	color:#fff;
+	background:#194719;
+	margin:0;
+}
+#pic{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+</style>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+$(document).ready(function() {  
+	$('.category').click(function(e){
+        e.preventDefault(); //stop default action of the link
+		cat = $(this).attr("href");  //get category from URL
+		loadAJAX(cat);  //load AJAX and parse JSON file
+	});
+});	
+function loadAJAX(cat)
+{
+	$.ajax({  
+		type: "GET",
+		dataType: "json",  
+		url: "api.php?cat=" + cat,
+		success: vesselJSON,
+	});
+	$('#vessels').html('');//clear data
+}
+function toConsole(data)
+{//return data to console for JSON examination
+	console.log(data); //to view,use Chrome console, ctrl + shift + j
+}
+function vesselJSON(data){
+	//$('#output').text(JSON.stringify(data));  //uncomment to view raw output
+	var header = data.title;
+	$('#title').html(header);
+	$.each(data.vessels, function(i,item){
+	
+		var text = '<b>Ferry Name</b>: ' + item.FerryName + '<br />';
+		text += '<b>Class</b>: ' + item.Class + '<br />';
+		text += '<b>Year Built (Rebuilt)</b>: ' + item.YearBuiltRebuilt + '<br />';
+		text += '<b>Auto Capacity</b>: ' + item.AutoCapacity + '<br />';
+		text += '<b>Passenger Capacity</b>: ' + item.PassengerCapacity + '<br />';
+		text += '<div id="notes"><b>Notes</b>: ' + item.Notes + '</div><br />';
+		text += '<div id="pic"><img src=' + item.Picture + ' alt="No photo of this ferry" width="175" height="135"/></div>';
+		$('<div></div>').html(text).appendTo('#vessels');  
+	});
+}
+</script>
+
+</head>
+	<body>
+	<h1>Puget Sound Ferry Vessels</h1>
+		<a href="current" class="category">Current Fleet</a><br />
+		<a href="retired" class="category">Retired Vessels</a>
+		<h3 id="title"></h3>
+		<div id="vessels">
+		</div>
+		<div id="output"></div>
+		<div id="content"></div>
+	</body>
+</html>

@@ -1,0 +1,303 @@
+{
+  "title": "Retired WSDOT Ferry Vessels",
+
+  "vessels":[
+    {
+      "FerryName":"Chippewa",
+      "Class":"None",
+      "YearBuiltRebuilt":"1900 (1928/ 1932)",
+      "YearInService":1951,
+      "YearRetired":1964,
+      "AutoCapacity":52,
+      "PassengerCapacity":950,
+      "Notes":"Converted to a car ferry in 1926",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/chippewa_truck-510x361.jpg"
+    },
+    {
+      "FerryName":"Leschi",
+      "Class":"None",
+      "YearBuiltRebuilt":"1913",
+      "YearInService":1951,
+      "YearRetired":1967,
+      "AutoCapacity":40,
+      "PassengerCapacity":453,
+      "Notes":"Previously owned by King County and used on Lake Washington",
+      "Picture":"http://3.bp.blogspot.com/-BvWuO5T-b_Y/T_DWcwzEeoI/AAAAAAAAK-w/KZu-491ZHLg/s1600/leschi100.jpg"
+    },
+    {
+      "FerryName":"San Mateo",
+      "Class":"None",
+      "YearBuiltRebuilt":"1922",
+      "YearInService":1951,
+      "YearRetired":1969,
+      "AutoCapacity":50,
+      "PassengerCapacity":659,
+      "Notes":"Purchased by PSN in 1941",
+      "Picture":"http://ecx.images-amazon.com/images/I/51JMZ-o0glL._SX425_.jpg"
+    },
+    {
+      "FerryName":"Shasta",
+      "Class":"None",
+      "YearBuiltRebuilt":"1922",
+      "YearInService":1951,
+      "YearRetired":1958,
+      "AutoCapacity":55,
+      "PassengerCapacity":468,
+      "Notes":"Purchased by PSN in 1941",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/2009_1020_120738AA-562x241.jpg"
+    },
+    {
+      "FerryName":"Rosario",
+      "Class":"None",
+      "YearBuiltRebuilt":"1923 (1931)",
+      "YearInService":1951,
+      "YearRetired":1951,
+      "AutoCapacity":33,
+      "PassengerCapacity":312,
+      "Notes":"",
+      "Picture":"http://2.bp.blogspot.com/-X6fDmkvHvWA/VL2lOIq7inI/AAAAAAAAGD4/f-AZpcxWkmE/s1600/ROSARIO%2Bferry%2B1931.jpg"
+    },
+    {
+      "FerryName":"Kitsap (1925)",
+      "Class":"None",
+      "YearBuiltRebuilt":"1925",
+      "YearInService":1951,
+      "YearRetired":1961,
+      "AutoCapacity":32,
+      "PassengerCapacity":325,
+      "Notes":"",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/Untitled-4-319x216.jpg"
+    },
+    {
+      "FerryName":"Crosline",
+      "Class":"None",
+      "YearBuiltRebuilt":"1925 (1947)",
+      "YearInService":1951,
+      "YearRetired":1967,
+      "AutoCapacity":30,
+      "PassengerCapacity":300,
+      "Notes":"Purchased by the state in 1947",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/crosline58-481x330.jpg"
+    },
+    {
+      "FerryName":"Kehloken",
+      "Class":"Wood Electric",
+      "YearBuiltRebuilt":"1926",
+      "YearInService":1951,
+      "YearRetired":1972,
+      "AutoCapacity":50,
+      "PassengerCapacity":770,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/KehlokennearEdmonds-HDemoro-SJPcollneg-1026x349.jpg"
+    },
+    {
+      "FerryName":"Kalakala",
+      "Class":"None",
+      "YearBuiltRebuilt":"1926 (1935)",
+      "YearInService":1951,
+      "YearRetired":1967,
+      "AutoCapacity":110,
+      "PassengerCapacity":1943,
+      "Notes":"Originally built as MV Peralta in 1926; rebuilt as Kalakala in 1935 with Peralta's hull",
+      "Picture":"https://lh4.googleusercontent.com/-qYapqkpzAhc/UX23RVdlrAI/AAAAAAAAupc/mB9pzwgLMxM/s640/postcards270.jpg"
+    },
+    {
+      "FerryName":"Enetai",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927",
+      "YearInService":1951,
+      "YearRetired":1967,
+      "AutoCapacity":90,
+      "PassengerCapacity":1500,
+      "Notes":"Purchased by PSN in 1940 and converted to a single-ended ferry",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/enetai-rarecard2-556x305.jpg"
+    },
+    {
+      "FerryName":"Willapa",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927",
+      "YearInService":1951,
+      "YearRetired":1967,
+      "AutoCapacity":90,
+      "PassengerCapacity":1500,
+      "Notes":"Purchased by PSN in 1940 and converted to a single-ended ferry",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/enetai-rarecard2-556x305.jpg"
+    },
+    {
+      "FerryName":"Chetzemoka (1927)",
+      "Class":"Wood Electric",
+      "YearBuiltRebuilt":"1927",
+      "YearInService":1951,
+      "YearRetired":1973,
+      "AutoCapacity":50,
+      "PassengerCapacity":400,
+      "Notes":"Purchased by PSN in 1938",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/chetzemoka_bb-575x331.jpg"
+    },
+    {
+      "FerryName":"Quinault",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927 (1958/ 1985)",
+      "YearInService":1951,
+      "YearRetired":2007,
+      "AutoCapacity":59,
+      "PassengerCapacity":616,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://ww3.hdnux.com/photos/02/57/27/718294/0/960x540.jpg"
+    },
+    {
+      "FerryName":"Illahee",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927 (1958/ 1986)",
+      "YearInService":1951,
+      "YearRetired":2007,
+      "AutoCapacity":59,
+      "PassengerCapacity":616,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://images.fineartamerica.com/images-medium-large/ferry-illahee-james-williamson.jpg"
+    },
+    {
+      "FerryName":"Nisqually",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927 (1958/ 1987)",
+      "YearInService":1951,
+      "YearRetired":2007,
+      "AutoCapacity":59,
+      "PassengerCapacity":616,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://images.fineartamerica.com/images-medium-large-5/washington-state-ferry-nisqually-paul-haist.jpg"
+    },
+    {
+      "FerryName":"Klickitat",
+      "Class":"Steel Electric",
+      "YearBuiltRebuilt":"1927 (1981)",
+      "YearInService":1951,
+      "YearRetired":2007,
+      "AutoCapacity":64,
+      "PassengerCapacity":412,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://ww2.hdnux.com/photos/02/51/57/695293/3/628x471.jpg"
+    },
+    {
+      "FerryName":"Klahanie",
+      "Class":"Wood Electric",
+      "YearBuiltRebuilt":"1928",
+      "YearInService":1951,
+      "YearRetired":1972,
+      "AutoCapacity":50,
+      "PassengerCapacity":601,
+      "Notes":"Purchased by PSN in 1940",
+      "Picture":"http://www.evergreenfleet.com/klahanie/phillipjfry.jpg"
+    },
+    {
+      "FerryName":"Skansonia",
+      "Class":"None",
+      "YearBuiltRebuilt":"1929",
+      "YearInService":1951,
+      "YearRetired":1969,
+      "AutoCapacity":32,
+      "PassengerCapacity":465,
+      "Notes":"Operated since 1940 after the Tacoma Narrows Bridge collapsed",
+      "Picture":"http://www.manorlord.com/skansonia.jpg"
+    },
+    {
+      "FerryName":"Vashon",
+      "Class":"None",
+      "YearBuiltRebuilt":"1930",
+      "YearInService":1951,
+      "YearRetired":1980,
+      "AutoCapacity":50,
+      "PassengerCapacity":646,
+      "Notes":"",
+      "Picture":"http://www.evergreenfleet.com/sitebuilder/images/CORRECTED_VASHON_LAUNCHPHOTO_MANDPC-478x290.jpg"
+    },
+    {
+      "FerryName":"Olympic",
+      "Class":"None",
+      "YearBuiltRebuilt":"1938",
+      "YearInService":1954,
+      "YearRetired":1993,
+      "AutoCapacity":55,
+      "PassengerCapacity":605,
+      "Notes":"Purchased by WSF in 1954",
+      "Picture":"http://www.lofallcc.org/images/olympic.jpg"
+    },
+    {
+      "FerryName":"Rhododendron",
+      "Class":"None",
+      "YearBuiltRebuilt":"1947 (1990)",
+      "YearInService":1954,
+      "YearRetired":2012,
+      "AutoCapacity":48,
+      "PassengerCapacity":546,
+      "Notes":"Purchased by WSF in 1954, sold to Atlantic Capes Fisheries in 2013",
+      "Picture":"http://www.evergreenfleet.com/hiyu/IMG_0943.jpg"
+    },
+    {
+      "FerryName":"Kulshan",
+      "Class":"None",
+      "YearBuiltRebuilt":"1954",
+      "YearInService":1970,
+      "YearRetired":1982,
+      "AutoCapacity":65,
+      "PassengerCapacity":350,
+      "Notes":"Purchased by WSF in 1970, sold in 1982 and renamed MV Governor",
+      "Picture":"http://www.evergreenfleet.com/kulshan/cc_06.jpg"
+    },
+    {
+      "FerryName":"Tyee",
+      "Class":"None",
+      "YearBuiltRebuilt":"1985",
+      "YearInService":1985,
+      "YearRetired":2003,
+      "AutoCapacity":0,
+      "PassengerCapacity":250,
+      "Notes":"Operating as Glacier Express in Kenai Fjords National Park since 2013",
+      "Picture":"http://ww1.hdnux.com/photos/02/31/63/630008/3/628x471.jpg"
+    },
+    {
+      "FerryName":"Kalama",
+      "Class":"Skagit/ Kalama",
+      "YearBuiltRebuilt":"1989",
+      "YearInService":1989,
+      "YearRetired":2009,
+      "AutoCapacity":0,
+      "PassengerCapacity":230,
+      "Notes":"Sold in 2011",
+      "Picture":"http://maritimematters.com/wp-content/uploads/2012/07/KALAMA-in-TanzaniaW.jpg"
+    },
+    {
+      "FerryName":"Skagit",
+      "Class":"Skagit/ Kalama",
+      "YearBuiltRebuilt":"1989",
+      "YearInService":1989,
+      "YearRetired":2009,
+      "AutoCapacity":0,
+      "PassengerCapacity":230,
+      "Notes":"Sold in 2011; capsized on July 18, 2012",
+      "Picture":"http://www.peninsuladailynews.com/apps/pbcsi.dll/bilde?Site=PT&Date=20120719&Category=news&ArtNo=307199997&Ref=AR&maxw=350"
+    },
+    {
+      "FerryName":"Chinook",
+      "Class":"Passenger-Only Fast Ferry",
+      "YearBuiltRebuilt":"1998",
+      "YearInService":1998,
+      "YearRetired":2008,
+      "AutoCapacity":0,
+      "PassengerCapacity":350,
+      "Notes":"Sold to Golden Gate Ferries, renamed MV Golden Gate",
+      "Picture":"http://www.evergreenfleet.com/chinook/wsf_chinook_01.jpg"
+    },
+    {
+      "FerryName":"Snohomish",
+      "Class":"Passenger-Only Fast Ferry",
+      "YearBuiltRebuilt":"1999",
+      "YearInService":1999,
+      "YearRetired":2008,
+      "AutoCapacity":0,
+      "PassengerCapacity":350,
+      "Notes":"Sold to Golden Gate Ferries, renamed MV Napa",
+      "Picture":"http://mvdirona.com/blog/content/binary/Snohomish.jpg"
+    }
+]
+}
